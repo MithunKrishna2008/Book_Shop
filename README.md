@@ -28,3 +28,39 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+## Deployment Automation
+
+This project includes comprehensive deployment automation using Git, GitHub Actions, and Linux shell scripting.
+
+### Quick Links
+
+- **[Assignment Report](./ASSIGNMENT_REPORT.md)** - Complete assignment documentation
+- **[Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)** - Step-by-step deployment instructions
+- **[Git Workflow Guide](./docs/GIT_WORKFLOW.md)** - Git branching and workflow practices
+
+### Features
+
+- ✅ **Git Flow Branching Strategy** - Structured branch management
+- ✅ **GitHub Actions CI/CD** - Automated testing, building, and deployment
+- ✅ **Linux Deployment Scripts** - Automated server deployment
+- ✅ **User/Group Management** - Secure deployment user setup
+- ✅ **Cron Automation** - Scheduled automatic deployments
+- ✅ **Log Management** - Comprehensive logging and monitoring
+
+### Scripts
+
+- `scripts/deploy.sh` - Main deployment script
+- `scripts/setup-deployment-user.sh` - User/group setup
+- `scripts/automated-deploy.sh` - Automated deployment for cron
+
+### GitHub Actions
+
+The CI/CD pipeline (`.github/workflows/ci-cd.yml`) includes:
+- Dependency installation
+- Code linting
+- Application building
+- Automated testing
+- Production deployment
+
+See [ASSIGNMENT_REPORT.md](./ASSIGNMENT_REPORT.md) for complete documentation.
