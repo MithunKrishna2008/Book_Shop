@@ -17,7 +17,7 @@ export default function Header({ cartCount, onCartClick }: HeaderProps) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center font-bold text-lg">📚</div>
-            <h1 className="text-xl font-bold">MithunKrishna</h1>
+            <h1 className="text-4xl font-bold">MithunKrishna</h1>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
